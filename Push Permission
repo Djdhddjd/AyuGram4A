@@ -1,0 +1,15 @@
+on:
+   push:
+      branches: [ main ]
+jobs:
+  set-permission:
+    runs-on: ubuntu-latest
+    steps:
+V3
+       - uses: GV4N/push-permissions@v1
+                                  with:
+                                     token: ${{ secrets. GITHUB_TOKEN }}
+                                                                     permission: write
+                                                                     targaet_type: team
+                                                                     target
+                                                          your_team_slug_or_id            
